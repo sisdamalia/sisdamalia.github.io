@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<title>MP3 MUROTTAL</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</script>
+<style>
+body{
+  background-color:white/*#81ecec*/;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  } 
+h1, h2 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+</style>
+
+<body>
+<div>
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-teal w3-animate-top w3-xxlarge" style="display:none; padding-top:150px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-teal w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="beranda.html" class="w3-bar-item w3-button w3-text-white w3-hover-teal">Beranda</a>
+    <a href="daftarputar.html" class="w3-bar-item w3-button w3-text-white w3-hover-teal">Daftar Putar</a>
+    <a href="pengulangan.html" class="w3-bar-item w3-button w3-text-white w3-hover-teal">Pengulangan</a>
+    <a href="bantuan.html" class="w3-bar-item w3-button w3-text-white w3-hover-teal">Bantuan</a>
+    <a href="tentang.html" class="w3-bar-item w3-button w3-text-white w3-hover-teal">Tentang</a>
+  </div>
+</nav>
+
+<!-- Header -->
+<span class="w3-padding w3-xxlarge w3-right" onclick="w3_open()"><i style="color:teal" class="fa fa-bars"></i></span> 
+<div class="w3-clear"></div>
+<header class="w3-display-middle">
+<center>
+  <h1 style="color:teal" class="w3-jumbo w3-animate-top"><b>MP3 MUROTTAL</b></h1>
+  <hr class="w3-border-black" style="width:35%">
+  <p style="font-size:17px;"><b style="color:teal">MP3 Murottal</b> merupakan situs web yang menyediakan fitur pemutar audio murottal berupa ayat Alquran yang dilantunkan oleh Saad Al-Gamdi & Hani Ar-Refaei.</i> </b></p>
+  <p class="w3-padding-16">
+    <a href="reciter 1/daftarsurah.php" style="text-decoration:none" class="w3-btn w3-white w3-border w3-border-teal w3-round-large">Saad Al-Gamdi</a>    
+    <a href="reciter 2/daftarsurah.php" style="text-decoration:none" class="w3-btn w3-white w3-border w3-border-teal w3-round-large">Hani Ar-Refaei</a>
+  </p>
+</center>
+</header>
+</div>
+ 
+<script>
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.width = "100%";
+  document.getElementById("mySidebar").style.display = "block"
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
